@@ -1,0 +1,15 @@
+Package: demutils
+Title: DEMSCORE utlities
+Version: 2.0
+Authors@R: 
+    c(person("Melina", "Liethmann", NULL, "melina.liethmann@demscore.se", role = c("cre", "aut")),
+      person("Johannes", "von Römer", NULL, "johannes.roemer@v-dem.net", role = c("aut")))
+Description: Utility functions for DEMSCORE
+License: GPL (>= 4)
+Depends: R (>= 3.6.3), vbase
+Imports: dplyr, DBI, RPostgreSQL, testthat
+Encoding: UTF-8
+LazyData: true
+Repository: aloha
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
