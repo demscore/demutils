@@ -1,5 +1,10 @@
 # demutils
-The demutils R package contains the code for the infrastructure construction, i.e. translation functions and several functions preparing the customized datasets as well as reference documents
+The demutils R package contains the code for the infrastructure construction, i.e. translation functions and several functions preparing the customized datasets as well as reference documents.
+
+Each directory contains the complete code for the R package of the respective version of Demscore.
+
+If you have any questions, please do not hesitate to contact us via email:
+contact@demscore.se or melina.liethmann@demscore.se
 
 License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
