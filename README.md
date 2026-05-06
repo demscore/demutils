@@ -1,28 +1,32 @@
-## demutils
-Demutils is demscore's internal R package, including all translation functions, 
-functions to generate the reference documents, functions to generate data, etc. 
-The functions are called in various scripts available in the infrastructure_construction
-repository.
-The demutils package needs to be updated when new output units are created or we want to 
-make existing datasets and variables available in new/more output units. 
-We also need to update 
-the functions in this package whenever we add new features to the download interface, 
-such as excluding empty rows,  filtering customized datasets by countries and years, 
-etc. Updating demutils and enuring that all existing functionalities continue 
-working is usually the most time consuming and challenging part of each update cycle. 
+# demutils legacy repository
 
-The functions and tables in the database need to be updated correctly for the 
-secondary data generation to start. 
-Each directory contains the complete code for the R package of the respective 
-version of Demscore.
+> This repository is archived and no longer maintained.
 
-Currently, this repository only includes the functions we use, but is not structured
-as an R package that can be installed by Demscore users, as several functions load *impure* 
-in a sense that they load locally stored files. We are however working on creating
-a public R package.
+This repository contains historical public versions of `demutils` used by the Demscore project before `demutils` was reorganized as a standard installable R package.
 
-If you have any questions, please do not hesitate to contact us via email:
-contact@demscore.se or melina.liethmann@demscore.se
+The active `demutils` repository is:
+
+https://github.com/demscore/demutils
+
+## Status
+
+This repository is kept online only for historical reference.
+
+- No new issues or pull requests will be handled here.
+- No new versions will be released from this repository.
+- Users should install current and future versions from the active `demutils` repository.
+- Historical code in this repository remains available for transparency and reproducibility.
+
+## Historical structure
+
+This repository stores earlier versions as folders, for example:
+
+- `previous_versions/demutils_v1`
+- `previous_versions/demutils_v2`
+- `previous_versions/demutils_v3`
+- `v4`
+
+Future versions are managed through Git tags and GitHub Releases in the active repository.
 
 License
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
